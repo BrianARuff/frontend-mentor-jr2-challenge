@@ -1,0 +1,172 @@
+:root {
+  --light-red: hsl(356, 100%, 66%);
+  --very-light-red: hsl(355, 100%, 74%);
+  --very-dark-blue: hsl(208, 49%, 24%);
+  --mob-grad-very-light-red: hsl(13, 100%, 72%);
+  --mob-grad-light-red: hsl(353, 100%, 62%);
+  --white: hsl(0, 0%, 100%);
+}
+
+.top {
+  background: url("./images/bg-pattern-intro.svg") no-repeat center center,
+    linear-gradient(90deg, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+  background-size: auto;
+  height: 600px;
+  border-bottom-left-radius: 75px;
+  background-position-x: 25.5%;
+  background-position-y: 52.5%;
+}
+
+header nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.6rem;
+}
+
+.nav-g1 {
+  text-align: center;
+  flex: 1;
+}
+
+.nav-g2 {
+  display: flex;
+  flex: 2;
+}
+
+ul.nav-g2 > li > a {
+  color: white;
+}
+
+.nav-g2 li {
+  margin: 0 1.6rem;
+  text-align: left;
+}
+
+.nav-g3 {
+  display: flex;
+  flex: 1;
+}
+
+ul.nav-g3 > li:nth-child(1) > button {
+  background: transparent;
+  border: 0px;
+  padding: 0.5rem 2rem;
+}
+
+ul.nav-g3 > li:nth-child(1) > button > a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
+ul.nav-g3 > li:nth-child(2) > button {
+  padding: 0.5rem 2rem;
+  border: 0px;
+  border-radius: 100px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+ul.nav-g3 > li:nth-child(2) > button > a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+  color: hsl(353, 100%, 62%);
+}
+
+.cta-article {
+  color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 200px;
+  margin-top: 3rem;
+}
+
+article .cta-h1 {
+  font-size: 3rem;
+  font-weight: bolder;
+}
+
+.cta-p {
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+.cta-button-container button:nth-of-type(1) {
+  background: hsl(0, 0%, 100%);
+  border: 0px;
+  padding: 0.5rem 2rem;
+  border-radius: 100px;
+}
+
+.cta-button-container button:nth-of-type(1) a {
+  text-decoration: none;
+  color: hsl(353, 100%, 62%);
+}
+
+.cta-button-container button {
+  padding: 0.5rem 2rem;
+  border-radius: 100px;
+  border: 1px solid hsl(0, 0%, 100%);
+  background-color: transparent;
+}
+
+.cta-button-container button:nth-child(2) a {
+  color: hsl(0, 0%, 100%);
+}
+
+/* SECOND SECTION */
+
+.two h2 {
+  font-size: 2.5rem;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 2rem;
+  position: relative;
+  top: 5rem;
+  color: hsl(208, 49%, 24%);
+}
+
+.cta2-article {
+  display: flex;
+  position: relative;
+}
+
+.cta2-left-side {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  position: relative;
+  left: 10rem;
+}
+
+div > article > div > h3 {
+  font-size: 2rem;
+  margin: 1rem 0;
+  color: hsl(208, 49%, 24%);
+}
+
+.cta2-left-side p {
+  font-size: 1rem;
+  line-height: 2;
+  width: 500px;
+  color: hsl(207, 13%, 34%);
+}
+
+.cta2-right-side {
+  position: relative;
+  left: 28rem;
+}
+
+.cta2-right-side h3 {
+  font-size: 2rem;
+  margin: 1rem 0;
+  color: hsl(208, 49%, 24%);
+}
+
+.cta2-right-side p {
+  font-size: 1rem;
+  line-height: 2;
+  width: 500px;
+  color: hsl(207, 13%, 34%);
+}
